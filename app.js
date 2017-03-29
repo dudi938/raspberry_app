@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/user');
 var gpio = require('./routes/gpio');
-
+var uart = require('./routes/uart');
 
 
 var app = express();
@@ -31,9 +31,17 @@ app.use(bodyParser.urlencoded({
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
+//app.use('/', routes);
 app.use('/users', users);
 app.use('/gpio', gpio);
+app.use('/uart', uart);
+
+
+
+app.get('/', function (req, res) {
+ 	 var Path = path.join(__dirname, '../app/public/motor_control.html');
+	 res.sendFile(Path);	
+});
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -68,6 +76,9 @@ app.use(function(err, req, res, next) {
         title: 'error'
     });
 });
+
+
+
 
 
 module.exports = app;
