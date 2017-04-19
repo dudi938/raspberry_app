@@ -1,0 +1,862 @@
+Dependencies for Project 'RobotFW_51', Target 'RobotFW_51': (DO NOT MODIFY !)
+F (../Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/system_stm32f0xx.c)(0x58CEABF1)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\system_stm32f0xx.o --omf_browse robotfw_51\system_stm32f0xx.crf --depend robotfw_51\system_stm32f0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_gpio.o --omf_browse robotfw_51\stm32f0xx_hal_gpio.crf --depend robotfw_51\stm32f0xx_hal_gpio.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_cortex.o --omf_browse robotfw_51\stm32f0xx_hal_cortex.crf --depend robotfw_51\stm32f0xx_hal_cortex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_rtc_ex.o --omf_browse robotfw_51\stm32f0xx_hal_rtc_ex.crf --depend robotfw_51\stm32f0xx_hal_rtc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_rcc_ex.o --omf_browse robotfw_51\stm32f0xx_hal_rcc_ex.crf --depend robotfw_51\stm32f0xx_hal_rcc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_dma.o --omf_browse robotfw_51\stm32f0xx_hal_dma.crf --depend robotfw_51\stm32f0xx_hal_dma.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_pwr_ex.o --omf_browse robotfw_51\stm32f0xx_hal_pwr_ex.crf --depend robotfw_51\stm32f0xx_hal_pwr_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_flash_ex.o --omf_browse robotfw_51\stm32f0xx_hal_flash_ex.crf --depend robotfw_51\stm32f0xx_hal_flash_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal.o --omf_browse robotfw_51\stm32f0xx_hal.crf --depend robotfw_51\stm32f0xx_hal.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_tim_ex.o --omf_browse robotfw_51\stm32f0xx_hal_tim_ex.crf --depend robotfw_51\stm32f0xx_hal_tim_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_rcc.o --omf_browse robotfw_51\stm32f0xx_hal_rcc.crf --depend robotfw_51\stm32f0xx_hal_rcc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_tim.o --omf_browse robotfw_51\stm32f0xx_hal_tim.crf --depend robotfw_51\stm32f0xx_hal_tim.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_flash.o --omf_browse robotfw_51\stm32f0xx_hal_flash.crf --depend robotfw_51\stm32f0xx_hal_flash.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_rtc.o --omf_browse robotfw_51\stm32f0xx_hal_rtc.crf --depend robotfw_51\stm32f0xx_hal_rtc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_pwr.o --omf_browse robotfw_51\stm32f0xx_hal_pwr.crf --depend robotfw_51\stm32f0xx_hal_pwr.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (..\Src\task_queue.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\task_queue.o --omf_browse robotfw_51\task_queue.crf --depend robotfw_51\task_queue.d)
+I (..\Src\task_queue.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Src/stm32f0xx_hal_msp.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_msp.o --omf_browse robotfw_51\stm32f0xx_hal_msp.crf --depend robotfw_51\stm32f0xx_hal_msp.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (../Src/stm32f0xx_it.c)(0x58CEB499)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_it.o --omf_browse robotfw_51\stm32f0xx_it.crf --depend robotfw_51\stm32f0xx_it.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+I (../Inc/stm32f0xx_it.h)(0x58CEABF2)
+I (../Src/platform.h)(0x58CEABF2)
+I (../Src/motor_control.h)(0x58CEABF2)
+F (../Src/main.c)(0x58E142EF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\main.o --omf_browse robotfw_51\main.crf --depend robotfw_51\main.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+I (../Src/gpio.h)(0x58CEABF2)
+I (../Src/platform.h)(0x58CEABF2)
+I (../Src/motor_control.h)(0x58CEABF2)
+I (../Src/timers.h)(0x58CEABF2)
+I (../Src/debug.h)(0x58CEABF2)
+I (../Src/uart.h)(0x58D8D4A8)
+I (../Src/task_queue.h)(0x58CEABF2)
+I (../Src/pwm.h)(0x58CEABF2)
+I (../Src/robot_main_module.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DB7FDE)
+F (..\Src\gpio.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\gpio.o --omf_browse robotfw_51\gpio.crf --depend robotfw_51\gpio.d)
+I (..\Src\gpio.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+I (..\Src\platform.h)(0x58CEABF2)
+I (..\Src\motor_control.h)(0x58CEABF2)
+I (..\Src\robot_main_module.h)(0x58CEABF2)
+I (..\Src\task_queue.h)(0x58CEABF2)
+F (..\Src\motor_control.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\motor_control.o --omf_browse robotfw_51\motor_control.crf --depend robotfw_51\motor_control.d)
+I (..\Src\motor_control.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (..\Src\gpio.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+I (..\Src\platform.h)(0x58CEABF2)
+I (..\Src\pwm.h)(0x58CEABF2)
+F (..\Src\timers.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\timers.o --omf_browse robotfw_51\timers.crf --depend robotfw_51\timers.d)
+I (..\Src\timers.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+I (..\Src\gpio.h)(0x58CEABF2)
+I (..\Src\platform.h)(0x58CEABF2)
+I (..\Src\motor_control.h)(0x58CEABF2)
+F (..\src\debug.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\debug.o --omf_browse robotfw_51\debug.crf --depend robotfw_51\debug.d)
+I (..\src\debug.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (..\src\platform.h)(0x58CEABF2)
+I (..\src\motor_control.h)(0x58CEABF2)
+I (..\src\gpio.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+F (..\src\uart.c)(0x58E14367)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\uart.o --omf_browse robotfw_51\uart.crf --depend robotfw_51\uart.d)
+I (..\src\uart.h)(0x58D8D4A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (..\src\gpio.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+I (..\src\platform.h)(0x58CEABF2)
+I (..\src\motor_control.h)(0x58CEABF2)
+I (..\src\task_queue.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB7FD8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB7FD8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DB7FDE)
+I (..\src\robot_main_module.h)(0x58CEABF2)
+F (..\src\pwm.c)(0x58D7BF9D)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\pwm.o --omf_browse robotfw_51\pwm.crf --depend robotfw_51\pwm.d)
+I (..\src\pwm.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (..\src\gpio.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+I (..\src\platform.h)(0x58CEABF2)
+I (..\src\motor_control.h)(0x58CEABF2)
+F (..\src\robot_main_module.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\robot_main_module.o --omf_browse robotfw_51\robot_main_module.crf --depend robotfw_51\robot_main_module.d)
+I (..\src\motor_control.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (..\src\platform.h)(0x58CEABF2)
+I (..\src\task_queue.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
+I (..\src\robot_main_module.h)(0x58CEABF2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DB7FDE)
+I (..\src\gpio.h)(0x58CEABF2)
+F (startup_stm32f051x8.s)(0x58CEABF2)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F051 SETA 1"--list startup_stm32f051x8.lst --xref -o robotfw_51\startup_stm32f051x8.o --depend robotfw_51\startup_stm32f051x8.d)
+F (..\Src\stm32f0xx_hal_uart.c)(0x58CEABF2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99-I C:\work\raspberry\st\DemoRobot\RobotFW_51\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051 -DUSE_HAL_DRIVER -DSTM32F051x8-o robotfw_51\stm32f0xx_hal_uart.o --omf_browse robotfw_51\stm32f0xx_hal_uart.crf --depend robotfw_51\stm32f0xx_hal_uart.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x58CEABF1)
+I (../Inc/stm32f0xx_hal_conf.h)(0x58CEABF2)
+I (../Inc/mxconstants.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x587C8ECF)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x58CEABF1)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x58CEABF1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB7FD6)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x58CEABF1)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x58CEABF2)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x58CEABF2)
